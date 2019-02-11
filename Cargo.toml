@@ -1,0 +1,19 @@
+[package]
+name = "cluster-bob"
+version = "0.1.0-pre.1"
+description = "Build feature vector vocabularies and bags of descriptors"
+authors = ["Eduardo Pinho <enet4mikeenet@gmail.com>"]
+edition = "2018"
+categories = ["algorithms", "command-line-utilities", "science"]
+license = "MIT/Apache-2.0"
+publish = false
+
+[dependencies]
+structopt = "0.2.14"
+faiss = "0.7.0"
+ndarray = "0.12.1"
+indicatif = "0.11.0"
+
+[dependencies.hdf5-rs]
+git = "https://github.com/aldanor/hdf5-rs"
+rev = "514f8516226435496fb2b82c5a8f459b4005baa1"
